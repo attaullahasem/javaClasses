@@ -10,7 +10,7 @@ public class StringMoreExamples {
 		char letter = str.charAt(5);// will
 		System.out.println(letter);// will print x
 
-		/// string lenght is 19
+		/// string length is 19
 		System.out.println(str.charAt(str.length()));// StringIndexBoudnError
 
 		System.out.println(str.charAt(str.length() - 1));

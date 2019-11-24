@@ -11,11 +11,11 @@ public class InterviewQuestion8 {
 		a = 0;
 		b = 1;
 
-		for (int i = 0; i< 10; i++) {
+		for (int i = 0; i < 10; i++) {
 			System.out.print(a + " ");
 			c = a + b;
 			a = b;
-			b= c;
+			b = c;
 
 		}
 

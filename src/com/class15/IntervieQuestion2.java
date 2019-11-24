@@ -8,9 +8,8 @@ public class IntervieQuestion2 {
 		public static void main(String[] args) {
 			
 			/*
-			 * Write a java program to find the second largest number in the array? Maximum
-			 * and minimum number in the array?
-			 * 
+			 * Write a java program to find ---->the second largest number in the array? 
+			 * ------> Maximum and minimum number in the array?
 			 */
 				int[] array = { 100, -90, 8787, 898, 0, 1, -90, 8787 };
 			// 1 easiest way
@@ -18,8 +17,10 @@ public class IntervieQuestion2 {
 			int min = array[0];
 			int max = array[array.length - 1];
 			
-			System.out.println(min);
-			System.out.println(max);
+			System.out.println("Minimum number is " + min);
+			System.out.println("Maximum number is " + max);
+			
+			System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 			// 2 way
 			int[] myArray = { 100, -90, 8787, 898, 0, 1, -90, 8787 };
 			int largest = myArray[0];
