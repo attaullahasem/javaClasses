@@ -1,7 +1,7 @@
 package com.class22;
 
 public class StaticVsNonStatic {
-// template for a student( scholl, name, grade)
+// template for a student( school, name, grade)
 	static String school="Syntax";
 	String name;
 	char grade;

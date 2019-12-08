@@ -26,5 +26,9 @@ public class Test {
 		dev.code();
 		dev.artifacts="Sprint Backlog";
 		dev.ceremonies="Sprint Demo, Planning, Retro, Daily StandUp";
+		
+		dev.employeeId=101;
+		// dev.employeeSsn; will not be accessible because it is private
+		
 	}
 }

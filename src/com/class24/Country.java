@@ -5,7 +5,7 @@ public class Country {
 public String capital, name;
     
     Country(){
-        System.out.println("I am non argument constructor");
+        //System.out.println("I am non argument constructor");
     }
     
     Country(String countryName, String countryCapital) {
